@@ -33,7 +33,7 @@ def display_artists(category, tool):
     st.dataframe(filtered_df[['Name', 'Years Livecoding', 'Description', 'Repo Link']])
 
 # Tabs for categories
-tabs = st.tabs(["Audio Livecoders", "Visual Livecoders"])
+tabs = st.tabs(["Audio Livecoders", "Visual Livecoders", "Other"])
 
 # Audio Livecoders Tab
 with tabs[0]:
@@ -48,6 +48,13 @@ with tabs[1]:
     for i, tool in enumerate(visual_tools):
         with visual_tabs[i]:
             display_artists("Visual", tool)
+
+# Visual Livecoders Tab
+with tabs[2]:
+    other_tabs = st.tabs(other_tools)
+    for i, tool in enumerate(other_tools):
+        with other_tabs[i]:
+            display_artists("Other", tool)
 
 # Initialize session state
 if 'selected_tools' not in st.session_state:
