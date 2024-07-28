@@ -25,9 +25,11 @@ def calculate_years(start_date):
 
 # Function to display artists by category and tool
 def display_artists(category, tool):
-    filtered_df = df[df['Category'].apply(lambda x: category in x) & df['Tool'].apply(lambda x: tool in x)]
+    filtered_df = df[df['Category'].apply(lambda x: category in x) & df['Tool'].apply(lambda x: tool in x)].copy()
     if 'Start Date' in filtered_df.columns:
         filtered_df['Years Livecoding'] = filtered_df['Start Date'].apply(calculate_years)
+    filtered_df['Category'] = filtered_df['Category'].apply(lambda x: ', '.join(x))
+    filtered_df['Tool'] = filtered_df['Tool'].apply(lambda x: ', '.join(x))
     st.dataframe(filtered_df[['Name', 'Years Livecoding', 'Description', 'Repo Link']])
 
 # Tabs for categories
@@ -104,4 +106,6 @@ st.sidebar.download_button("Download CSV", df.to_csv(index=False), "info.csv")
 
 # Display CSV in Main Page
 st.header("Current Artists")
+df['Category'] = df['Category'].apply(lambda x: ', '.join(x) if isinstance(x, list) else x)
+df['Tool'] = df['Tool'].apply(lambda x: ', '.join(x) if isinstance(x, list) else x)
 st.dataframe(df)
