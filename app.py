@@ -4,7 +4,6 @@ from datetime import datetime
 
 st.header("Livecoding.info")
 
-
 # Load CSV file
 df = pd.read_csv('info.csv')
 
@@ -17,11 +16,18 @@ audio_tools = ["Sonic Pi", "TidalCycles", "FoxDot", "Orca"]
 visual_tools = ["Hydra", "Live Code Lab", "Visor", "P5LIVE"]
 other_tools = ["Arcadia", "bl4st", "DanceDirt", "Kairos", "La Habra", "Polonium", "The Force", "The Dark Side", "Thixels"]
 
+# Function to calculate years live coding
+def calculate_years(start_date):
+    if pd.isnull(start_date):
+        return 0
+    delta = datetime.now() - datetime.strptime(start_date, '%Y-%m-%d')
+    return round(delta.days / 365.25, 1)
+
 # Function to display artists by category and tool
 def display_artists(category, tool):
     filtered_df = df[df['Category'].apply(lambda x: category in x) & df['Tool'].apply(lambda x: tool in x)]
     if 'Start Date' in filtered_df.columns:
-        filtered_df['Years Livecoding'] = filtered_df['Start Date'].apply(lambda x: (datetime.now() - datetime.strptime(x, '%Y-%m-%d')).days // 365 if pd.notnull(x) else 0)
+        filtered_df['Years Livecoding'] = filtered_df['Start Date'].apply(calculate_years)
     st.dataframe(filtered_df[['Name', 'Years Livecoding', 'Description', 'Repo Link']])
 
 # Tabs for categories
@@ -74,7 +80,7 @@ with st.sidebar.form("submit_form"):
         st.session_state.selected_tools.extend(show_tools(other_tools, "other"))
 
     name = st.text_input("Name")
-    start_date = st.date_input("Start Date (YYYY-MM-DD)")
+    start_date = st.date_input("Start Date")
     description = st.text_area("Description")
     repo_link = st.text_input("Repo Link")
     submitted = st.form_submit_button("Submit")
