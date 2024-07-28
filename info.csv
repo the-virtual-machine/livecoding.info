@@ -1,18 +1,8 @@
-Name,Category,Tool,Description,Repo Link
-Jane Doe,Audio,Sonic Pi,Description of Jane's work,https://github.com/janedoe
-John Smith,Visual,Hydra,Description of John's work,https://github.com/johnsmith
-the_virtual_machine,Visual,Visor,Lorem Ipsum,https://github.com/the_virtual_machine
-s,Audio,Sonic Pi,sss,s
-d,Audio,FoxDot,d,d
-d,Audio,FoxDot,d,d
-d,Other,The Force,d,d
-d,Audio,FoxDot,d,d
-d,Other,The Force,d,d
-d,Audio,FoxDot,d,d
-d,Other,The Force,d,d
-fff,Audio,Sonic Pi,fff,fff
-fff,Audio,TidalCycles,fff,fff
-fff,Visual,Hydra,fff,fff
-fff,Audio,Sonic Pi,fff,fff
-fff,Audio,TidalCycles,fff,fff
-fff,Visual,Hydra,fff,fff
+Name,Category,Tool,Description,Repo Link,Start Date
+4,"['Other', 'Visual', 'Audio']","['Sonic Pi', 'Hydra', 'Live Code Lab', 'Visor', 'Arcadia']",4,4,
+5,"['Other', 'Visual', 'Audio']","['Sonic Pi', 'Hydra', 'Arcadia']",5,5,
+6,"['Visual', 'Audio']","['Sonic Pi', 'Hydra', 'Sonic Pi', 'Sonic Pi', 'Orca']",6,6,
+7,['Audio'],['Sonic Pi'],7,7,
+test-decmial years,['Audio'],['Sonic Pi'],test,test,2024-07-28
+test-decmial years2,['Audio'],['Sonic Pi'],test2,test2,2022-07-28
+test-decmial years2,['Audio'],['Sonic Pi'],test2,test2,2022-07-28
