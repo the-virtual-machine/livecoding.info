@@ -1,5 +1,3 @@
 Name,Category,Tool,Description,Repo Link,Start Date
-test year decimal,['Audio'],['Sonic Pi'],test year decimal,https://github.com/,2023-05-01
-test year decimal,['Audio'],"['Sonic Pi', 'TidalCycles']",test year decimal,https://github.com/,2023-05-01
-test,['Audio'],['TidalCycles'],test,test,2024-06-24
-arrow,['Audio'],['Sonic Pi'],arrow,arrow,2024-07-28
+
+the_virtual_machine,"['Visual', 'Audio']","['Sonic Pi', 'TidalCycles', 'Hydra', 'Visor']",Creator of livecoding.info and a music lover. ,https://github.com/the-virtual-machine/sonic-pi,2021-05-01

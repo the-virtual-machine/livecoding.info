@@ -49,7 +49,7 @@ with tabs[1]:
         with visual_tabs[i]:
             display_artists("Visual", tool)
 
-# Visual Livecoders Tab
+# Other Livecoders Tab
 with tabs[2]:
     other_tabs = st.tabs(other_tools)
     for i, tool in enumerate(other_tools):
@@ -116,3 +116,29 @@ st.header("Current Artists")
 df['Category'] = df['Category'].apply(lambda x: ', '.join(x) if isinstance(x, list) else x)
 df['Tool'] = df['Tool'].apply(lambda x: ', '.join(x) if isinstance(x, list) else x)
 st.dataframe(df)
+
+# Dialog box for first-time visitors
+@st.dialog("Welcome to Livecoding.info!")
+def welcome_dialog():
+    st.markdown("""
+    Welcome to Livecoding.info, a community-driven platform dedicated to showcasing live coding artists from around the world.
+    
+    ## Features
+    - **Artist Categories**: Browse artists categorized by Audio, Visual, and Other tools.
+    - **Submit Your Info**: Artists can submit their details using the sidebar form.
+    - **Download Data**: Easily download the list of artists in CSV format.
+    
+    ## How to Get Your Data on the Page
+    1. **Submit Your Info**: Use the sidebar form to submit your details. Select your category, tools, and provide other relevant information.
+    2. **Pull Request**: Edit the `info.csv` file in [the repository](https://github.com/the-virtual-machine/livecoding.info) and create a pull request with your updates.
+    
+    Enjoy exploring and connecting with fellow live coders!
+    """)
+    if st.button("Got it!"):
+        st.session_state.visited = True
+        st.rerun()
+
+# Show the dialog if the user has not visited before
+if 'visited' not in st.session_state:
+    welcome_dialog()
+
