@@ -1,0 +1,81 @@
+Name,Category,Tool,Description,Repo Link,Start Date
+Artist_1,['Visual'],"['Live Code Lab', 'Visor', 'P5LIVE', 'Hydra']",Description for Artist_80,https://github.com/Artist_80/repo,2022-02-14
+Artist_2,['Audio'],"['Orca', 'Sonic Pi', 'FoxDot', 'TidalCycles']",Description for Artist_79,https://github.com/Artist_79/repo,2022-10-19
+Artist_3,['Audio'],['Sonic Pi'],Description for Artist_78,https://github.com/Artist_78/repo,2023-03-06
+Artist_4,['Audio'],"['Orca', 'TidalCycles', 'FoxDot']",Description for Artist_77,https://github.com/Artist_77/repo,2022-05-07
+Artist_5,['Other'],"['bl4st', 'Polonium', 'Kairos', 'The Dark Side', 'The Force', 'La Habra', 'Arcadia', 'Thixels', 'DanceDirt']",Description for Artist_76,https://github.com/Artist_76/repo,2024-02-10
+Artist_6,['Audio'],"['Orca', 'FoxDot', 'Sonic Pi']",Description for Artist_75,https://github.com/Artist_75/repo,2024-06-24
+Artist_7,['Other'],"['The Force', 'Thixels']",Description for Artist_74,https://github.com/Artist_74/repo,2020-01-15
+Artist_8,['Other'],"['The Dark Side', 'Polonium', 'La Habra', 'Kairos', 'Thixels', 'The Force', 'bl4st', 'DanceDirt', 'Arcadia']",Description for Artist_73,https://github.com/Artist_73/repo,2021-10-16
+Artist_9,['Visual'],['Visor'],Description for Artist_72,https://github.com/Artist_72/repo,2019-08-24
+Artist_10,['Other'],['Arcadia'],Description for Artist_71,https://github.com/Artist_71/repo,2024-03-06
+Artist_11,['Visual'],"['Live Code Lab', 'Hydra', 'Visor', 'P5LIVE']",Description for Artist_70,https://github.com/Artist_70/repo,2020-04-28
+Artist_12,['Visual'],['Visor'],Description for Artist_69,https://github.com/Artist_69/repo,2023-11-11
+Artist_13,['Visual'],['Hydra'],Description for Artist_68,https://github.com/Artist_68/repo,2021-11-27
+Artist_14,['Other'],"['bl4st', 'La Habra', 'Thixels', 'Arcadia']",Description for Artist_67,https://github.com/Artist_67/repo,2021-05-09
+Artist_15,['Other'],"['Polonium', 'The Dark Side', 'DanceDirt', 'Arcadia', 'La Habra', 'Kairos']",Description for Artist_66,https://github.com/Artist_66/repo,2024-01-26
+Artist_16,['Other'],"['Polonium', 'La Habra', 'Kairos', 'bl4st', 'DanceDirt', 'The Force', 'Arcadia', 'Thixels']",Description for Artist_65,https://github.com/Artist_65/repo,2021-02-14
+Artist_17,['Other'],"['La Habra', 'DanceDirt', 'Arcadia', 'Polonium', 'Thixels']",Description for Artist_64,https://github.com/Artist_64/repo,2023-11-11
+Artist_18,['Audio'],"['Orca', 'Sonic Pi']",Description for Artist_63,https://github.com/Artist_63/repo,2023-01-07
+Artist_19,['Audio'],"['TidalCycles', 'Orca', 'Sonic Pi', 'FoxDot']",Description for Artist_62,https://github.com/Artist_62/repo,2021-11-12
+Artist_20,['Visual'],['P5LIVE'],Description for Artist_61,https://github.com/Artist_61/repo,2021-09-30
+Artist_21,['Audio'],"['FoxDot', 'TidalCycles', 'Orca']",Description for Artist_60,https://github.com/Artist_60/repo,2022-04-28
+Artist_22,['Audio'],"['TidalCycles', 'Orca', 'Sonic Pi', 'FoxDot']",Description for Artist_59,https://github.com/Artist_59/repo,2022-09-03
+Artist_23,['Visual'],"['Live Code Lab', 'Hydra', 'P5LIVE', 'Visor']",Description for Artist_58,https://github.com/Artist_58/repo,2022-10-09
+Artist_24,['Other'],"['Polonium', 'Thixels', 'DanceDirt']",Description for Artist_57,https://github.com/Artist_57/repo,2021-07-04
+Artist_25,['Other'],"['DanceDirt', 'La Habra', 'The Dark Side', 'Thixels', 'Kairos', 'Polonium', 'bl4st', 'The Force', 'Arcadia']",Description for Artist_56,https://github.com/Artist_56/repo,2022-01-24
+Artist_26,['Audio'],"['FoxDot', 'Sonic Pi', 'TidalCycles', 'Orca']",Description for Artist_55,https://github.com/Artist_55/repo,2021-03-03
+Artist_27,['Audio'],"['FoxDot', 'Sonic Pi', 'Orca', 'TidalCycles']",Description for Artist_54,https://github.com/Artist_54/repo,2019-11-15
+Artist_28,['Audio'],"['TidalCycles', 'FoxDot', 'Sonic Pi', 'Orca']",Description for Artist_53,https://github.com/Artist_53/repo,2020-03-15
+Artist_29,['Other'],"['Polonium', 'The Force', 'Thixels', 'Arcadia', 'The Dark Side', 'Kairos']",Description for Artist_52,https://github.com/Artist_52/repo,2022-08-03
+Artist_30,['Visual'],"['Live Code Lab', 'P5LIVE', 'Visor']",Description for Artist_51,https://github.com/Artist_51/repo,2021-02-07
+Artist_31,['Other'],"['Polonium', 'Arcadia', 'Thixels', 'The Force', 'La Habra', 'DanceDirt']",Description for Artist_50,https://github.com/Artist_50/repo,2022-04-18
+Artist_32,['Other'],"['bl4st', 'La Habra', 'Thixels', 'The Dark Side', 'Polonium', 'Kairos', 'DanceDirt']",Description for Artist_49,https://github.com/Artist_49/repo,2022-01-30
+Artist_33,['Other'],"['The Dark Side', 'Kairos']",Description for Artist_48,https://github.com/Artist_48/repo,2023-07-18
+Artist_34,['Visual'],"['Visor', 'Live Code Lab', 'Hydra']",Description for Artist_47,https://github.com/Artist_47/repo,2019-11-10
+Artist_35,['Visual'],"['Live Code Lab', 'P5LIVE', 'Visor']",Description for Artist_46,https://github.com/Artist_46/repo,2021-05-04
+Artist_36,['Other'],"['Kairos', 'bl4st', 'Polonium', 'The Dark Side', 'La Habra', 'Arcadia']",Description for Artist_45,https://github.com/Artist_45/repo,2022-12-18
+Artist_37,['Visual'],"['Live Code Lab', 'Hydra', 'P5LIVE', 'Visor']",Description for Artist_44,https://github.com/Artist_44/repo,2021-09-30
+Artist_38,['Other'],"['bl4st', 'Thixels', 'Kairos', 'The Force']",Description for Artist_43,https://github.com/Artist_43/repo,2023-01-31
+Artist_39,['Visual'],"['Live Code Lab', 'P5LIVE', 'Hydra', 'Visor']",Description for Artist_42,https://github.com/Artist_42/repo,2024-05-24
+Artist_40,['Other'],"['Kairos', 'Thixels', 'DanceDirt', 'Arcadia', 'La Habra', 'bl4st', 'The Force']",Description for Artist_41,https://github.com/Artist_41/repo,2019-12-15
+Artist_41,['Audio'],"['Sonic Pi', 'FoxDot']",Description for Artist_40,https://github.com/Artist_40/repo,2023-06-03
+Artist_42,['Other'],"['Arcadia', 'Kairos', 'Thixels', 'The Dark Side', 'La Habra', 'bl4st', 'Polonium', 'DanceDirt', 'The Force']",Description for Artist_39,https://github.com/Artist_39/repo,2023-06-26
+Artist_43,['Visual'],"['Live Code Lab', 'Visor', 'P5LIVE']",Description for Artist_38,https://github.com/Artist_38/repo,2022-05-24
+Artist_44,['Visual'],"['Hydra', 'P5LIVE', 'Visor', 'Live Code Lab']",Description for Artist_37,https://github.com/Artist_37/repo,2019-12-16
+Artist_45,['Visual'],"['P5LIVE', 'Hydra']",Description for Artist_36,https://github.com/Artist_36/repo,2024-04-23
+Artist_46,['Audio'],"['TidalCycles', 'Orca']",Description for Artist_35,https://github.com/Artist_35/repo,2022-08-24
+Artist_47,['Other'],"['DanceDirt', 'Polonium']",Description for Artist_34,https://github.com/Artist_34/repo,2024-05-27
+Artist_48,['Visual'],"['P5LIVE', 'Live Code Lab', 'Hydra']",Description for Artist_33,https://github.com/Artist_33/repo,2021-01-11
+Artist_49,['Visual'],"['Visor', 'Live Code Lab', 'Hydra', 'P5LIVE']",Description for Artist_32,https://github.com/Artist_32/repo,2019-11-29
+Artist_50,['Other'],"['Arcadia', 'Polonium', 'The Force', 'Kairos', 'DanceDirt', 'La Habra', 'Thixels']",Description for Artist_31,https://github.com/Artist_31/repo,2021-11-13
+Artist_51,['Audio'],"['TidalCycles', 'Orca', 'Sonic Pi', 'FoxDot']",Description for Artist_30,https://github.com/Artist_30/repo,2020-06-05
+Artist_52,['Audio'],"['TidalCycles', 'Sonic Pi', 'Orca']",Description for Artist_29,https://github.com/Artist_29/repo,2024-04-07
+Artist_53,['Other'],"['Kairos', 'Polonium', 'Thixels']",Description for Artist_28,https://github.com/Artist_28/repo,2020-06-17
+Artist_54,['Audio'],['TidalCycles'],Description for Artist_27,https://github.com/Artist_27/repo,2021-08-07
+Artist_55,['Audio'],"['Orca', 'Sonic Pi', 'TidalCycles']",Description for Artist_26,https://github.com/Artist_26/repo,2019-09-24
+Artist_56,['Visual'],['P5LIVE'],Description for Artist_25,https://github.com/Artist_25/repo,2021-07-07
+Artist_57,['Visual'],"['Live Code Lab', 'Hydra', 'P5LIVE']",Description for Artist_24,https://github.com/Artist_24/repo,2023-05-13
+Artist_58,['Other'],"['The Force', 'bl4st', 'The Dark Side', 'Kairos', 'La Habra', 'DanceDirt']",Description for Artist_23,https://github.com/Artist_23/repo,2023-01-05
+Artist_59,['Audio'],"['Sonic Pi', 'TidalCycles']",Description for Artist_22,https://github.com/Artist_22/repo,2020-06-12
+Artist_60,['Audio'],"['Sonic Pi', 'FoxDot', 'TidalCycles', 'Orca']",Description for Artist_21,https://github.com/Artist_21/repo,2024-01-02
+Artist_61,['Audio'],"['Orca', 'TidalCycles']",Description for Artist_20,https://github.com/Artist_20/repo,2019-12-01
+Artist_62,['Visual'],"['Hydra', 'P5LIVE', 'Visor', 'Live Code Lab']",Description for Artist_19,https://github.com/Artist_19/repo,2024-04-04
+Artist_63,['Audio'],"['Orca', 'Sonic Pi', 'TidalCycles']",Description for Artist_18,https://github.com/Artist_18/repo,2020-01-01
+Artist_64,['Audio'],"['Orca', 'Sonic Pi', 'TidalCycles', 'FoxDot']",Description for Artist_17,https://github.com/Artist_17/repo,2021-12-24
+Artist_65,['Visual'],"['Live Code Lab', 'Visor', 'P5LIVE']",Description for Artist_16,https://github.com/Artist_16/repo,2023-09-28
+Artist_66,['Visual'],"['Live Code Lab', 'Visor', 'P5LIVE']",Description for Artist_15,https://github.com/Artist_15/repo,2023-11-22
+Artist_67,['Other'],"['Thixels', 'Polonium', 'DanceDirt']",Description for Artist_14,https://github.com/Artist_14/repo,2022-03-14
+Artist_68,['Other'],"['Arcadia', 'La Habra', 'Polonium', 'The Force', 'The Dark Side']",Description for Artist_13,https://github.com/Artist_13/repo,2023-05-22
+Artist_69,['Visual'],['Hydra'],Description for Artist_12,https://github.com/Artist_12/repo,2022-05-29
+Artist_70,['Visual'],['P5LIVE'],Description for Artist_11,https://github.com/Artist_11/repo,2020-04-07
+Artist_71,['Visual'],"['Hydra', 'P5LIVE', 'Live Code Lab']",Description for Artist_10,https://github.com/Artist_10/repo,2023-08-11
+Artist_72,['Visual'],"['Hydra', 'Live Code Lab']",Description for Artist_9,https://github.com/Artist_9/repo,2019-08-24
+Artist_73,['Other'],"['La Habra', 'Kairos', 'The Dark Side', 'Polonium', 'The Force']",Description for Artist_8,https://github.com/Artist_8/repo,2023-06-18
+Artist_74,['Audio'],"['Orca', 'FoxDot']",Description for Artist_7,https://github.com/Artist_7/repo,2020-12-05
+Artist_75,['Visual'],"['Hydra', 'Visor', 'Live Code Lab', 'P5LIVE']",Description for Artist_6,https://github.com/Artist_6/repo,2019-12-24
+Artist_76,['Other'],"['Thixels', 'The Dark Side', 'La Habra', 'Polonium', 'DanceDirt', 'The Force', 'Kairos']",Description for Artist_5,https://github.com/Artist_5/repo,2021-04-20
+Artist_77,['Audio'],"['Orca', 'TidalCycles', 'Sonic Pi', 'FoxDot']",Description for Artist_4,https://github.com/Artist_4/repo,2021-10-11
+Artist_78,['Visual'],"['Visor', 'Hydra']",Description for Artist_3,https://github.com/Artist_3/repo,2020-06-10
+Artist_79,['Visual'],"['Hydra', 'Visor']",Description for Artist_2,https://github.com/Artist_2/repo,2020-02-07
+Artist_80,['Other'],"['bl4st', 'The Force']",Description for Artist_1,https://github.com/Artist_1/repo,2020-07-03

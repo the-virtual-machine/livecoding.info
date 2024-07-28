@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 from datetime import datetime
 
 st.header("Livecoding.info")
@@ -116,6 +117,44 @@ st.header("Current Artists")
 df['Category'] = df['Category'].apply(lambda x: ', '.join(x) if isinstance(x, list) else x)
 df['Tool'] = df['Tool'].apply(lambda x: ', '.join(x) if isinstance(x, list) else x)
 st.dataframe(df)
+
+# Data Analysis Section
+st.header("Data Analysis")
+
+# Calculate percentages for Audio, Visual, and Both categories
+audio_count = df['Category'].apply(lambda x: 'Audio' in x).sum()
+visual_count = df['Category'].apply(lambda x: 'Visual' in x).sum()
+other_count = df['Category'].apply(lambda x: 'Other' in x).sum()
+total = len(df)
+
+st.write(f"Percentage of Audio Livecoders: {audio_count / total * 100:.2f}%")
+st.write(f"Percentage of Visual Livecoders: {visual_count / total * 100:.2f}%")
+st.write(f"Percentage of Other Livecoders: {other_count / total * 100:.2f}%")
+
+# Tool usage breakdown
+all_tools = [tool for sublist in df['Tool'].apply(eval).tolist() for tool in sublist]
+tool_counts = pd.Series(all_tools).value_counts()
+
+st.write("Tool Usage Breakdown:")
+st.write(tool_counts)
+
+# Correlation between tools
+tool_df = df['Tool'].apply(eval).apply(pd.Series).stack().reset_index(level=1, drop=True).reset_index().rename(columns={0: 'Tool'})
+tool_df['Count'] = 1
+tool_matrix = tool_df.pivot_table(index='index', columns='Tool', values='Count', fill_value=0)
+tool_corr = tool_matrix.corr()
+
+st.write("Tool Correlation Matrix:")
+st.write(tool_corr)
+
+# Bar Chart of Categories and Tools
+tool_df['Category'] = tool_df['index'].apply(lambda idx: df.loc[idx, 'Category'][0] if isinstance(df.loc[idx, 'Category'], list) else df.loc[idx, 'Category'])
+category_tool_counts = tool_df.groupby(['Category', 'Tool']).size().reset_index(name='Count')
+
+fig = px.bar(category_tool_counts, x='Category', y='Count', color='Tool', barmode='group',
+             title="Distribution of Tools within Categories")
+st.plotly_chart(fig)
+
 
 # Dialog box for first-time visitors
 @st.dialog("Welcome to Livecoding.info!")
